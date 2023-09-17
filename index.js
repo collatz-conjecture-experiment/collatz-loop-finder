@@ -1,4 +1,4 @@
-var number = document.getElementById("number").value;
+var number = document.getElementById("increases").value;
 var newWindow = window.open("", "_parent");
 newWindow.document.write("<form>");
 for(i = 1; i <= number; i++) {
