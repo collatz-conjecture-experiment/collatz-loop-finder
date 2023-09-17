@@ -9,7 +9,9 @@ function increasesSubmitted(){
 }
 
 $("#increases").on("input", function() {
-    alert($(this).val()); 
+    // alert($(this).val()); 
+    console.log($(this).val());
     $("#qlist").append("<li>&nbsp;</li>");
     $("#qlist").append("<li><input type='text' name='name[]' placeholder='Name' /></li>");
 });
+
