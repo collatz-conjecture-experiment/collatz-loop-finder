@@ -1,9 +1,9 @@
 function increasesSubmitted(){
     var number = document.getElementById("increases").value;
-    var newWindow = window.open("", "_parent");
-    newWindow.document.write("<form>");
+    //var newWindow = window.open("", "_parent");
+    document.write("<form>");
     for(i = 1; i <= number; i++) {
-        newWindow.document.write('<input type="text" id="box' + i + '" />');
+        document.write('<input type="text" id="box' + i + '" />');
     }
-    newWindow.document.write("</form>");
+    document.write("</form>");
 }
