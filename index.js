@@ -8,10 +8,10 @@ function increasesSubmitted(){
     document.write("</form>");
 }
 
-$("#increases").on("input change", function() {
+$('#increases').on('input change', function() {
     // alert($(this).val()); 
     console.log($(this).val());
-    $("#qlist").append("<li>&nbsp;</li>");
-    $("#qlist").append("<li><input type='text' name='name[]' placeholder='Name' /></li>");
+    $('#qlist').append("<li>&nbsp;</li>");
+    $('#qlist').append("<li><input type='text' name='name[]' placeholder='Name' /></li>");
 });
 
